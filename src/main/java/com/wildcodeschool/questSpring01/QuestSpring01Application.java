@@ -41,11 +41,6 @@ public class QuestSpring01Application {
 	@RequestMapping("/")
 	@ResponseBody
 	public String index() {
-		return "<ul><li><a href='/doctor/1'>Tom Baker</a></li><li><a href='/doctor/2'>Jon Pertwee</a></li><li><a href='/doctor/3'>Patrick Troughton</a></li><li><a href='/doctor/4'>William Hartnell</a></li></ul>";
+		return "<ul><li><a href='/doctor/1'>William Hartnell</a></li><li><a href='/doctor/2'>Patrick Troughton</a></li><li><a href='/doctor/3'>Jon Pertwee</a></li><li><a href='/doctor/4'>Tom Baker</a></li></ul>";
 	}
-
-
-	
-
-
 }
